@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod tidy:*)",
+      "Bash(go run:*)",
+      "Bash(curl:*)",
+      "Bash(echo:*)",
+      "Bash(pkill:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(go doc:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
